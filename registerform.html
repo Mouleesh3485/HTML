@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        register form
+    </title>
+    <style>
+        .container{
+            border: 1px solid black;
+            padding: 10;
+           
+        }
+        .details{
+            margin-left: 10px;
+        }
+        .line{
+            display: inline-block;
+        }
+    </style>
+
+   
+
+    </head>
+
+    <body>
+       <fieldset>
+        <legend><b>*Personal Details*</b></legend>
+        <br>
+           <form> 
+            
+            <label>Salutation :</label>
+            <select>
+                <option>none</option>
+                <option>one</option>
+                <option>two</option>
+                <option>three</option>
+            </select>
+            </div><br><br>
+
+            <label>First Name:</label>
+            <input type="text" name="fname" ><br><br>
+
+            <label>Last Name :</label>
+            <input type="text" name="lname"><br><br>
+
+            <label>   Gender :  </label>
+            <input type="radio" name="male"/> Male   
+            <input type="radio" name="female"/> Female 
+            <input type="radio" name="other"/> Other <br><br>
+
+            <label for="email">Email :</label>
+            <input type="text" id="email" name="Email"><br><br>
+
+            <label>Date of Brith :</label>
+            <input type="date" id="dob" name="dob" ><br><br>
+
+            <label>Address :</label><br>
+            <textarea cols="40" rows="5" placeholder="Current Address" value="address" required>  
+            </textarea> <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        </fieldset>
+    </body>
+</html>
